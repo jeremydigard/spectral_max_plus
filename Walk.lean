@@ -1,8 +1,4 @@
-/-
-Copyright (c) 2026 Jeremy Avigad. All rights reserved.
-Released under Apache 2.0 license as described in the file LICENSE.
-Authors: Jeremy Avigad -- pq le chat a mit cette personne ? c qui et pq lui ?
--/
+
 module
 -- cela veut dire quoi public ? cela veut dire quoi module ?
 public import Mathlib.Tropical.MaxPlus.Basic
