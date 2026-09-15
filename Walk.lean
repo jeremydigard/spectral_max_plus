@@ -4,7 +4,7 @@ public import Mathlib.Tropical.MaxPlus.Basic
 public import Mathlib.Data.Fintype.List
 public import Mathlib.Data.List.Chain
 public import Mathlib.Tactic.Ring
-public meta import Lean.Elab.Tactic.Omega -- c quoi meta
+public meta import Lean.Elab.Tactic.Omega
 
 /-!
 # Weighted directed paths for max-plus algebra
