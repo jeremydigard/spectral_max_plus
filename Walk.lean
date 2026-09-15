@@ -19,13 +19,12 @@ as nonempty, duplicate-free lists of vertices.  A one-vertex cycle is therefore 
 structure WeightedDigraph (ι : Type*) where
   Edge : ι → ι → Prop
   weight : ι → ι → ℝ
--- c quoi une structure ? c quoi la diff avec un type ?
 
-namespace WeightedDigraph -- ca veut dire quoi ca ?
+namespace WeightedDigraph 
 
 variable {ι : Type*} (G : WeightedDigraph ι)
 
-def HasIncomingEdges : Prop := ∀ i, ∃ j, G.Edge j i -- pq on a pas besoin de préciser sur quoi on itere 'i'
+def HasIncomingEdges : Prop := ∀ i, ∃ j, G.Edge j i -- maybe preciser sur quel ensemble on itere i 
 
 /-- Sum the weights of consecutive pairs in a list. -/
 def chainWeight (G : WeightedDigraph ι) : List ι → ℝ
