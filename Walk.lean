@@ -6,7 +6,6 @@ public import Mathlib.Data.List.Chain
 public import Mathlib.Tactic.Ring
 public meta import Lean.Elab.Tactic.Omega -- c quoi meta
 
--- c étonnant que dans aucun des fichiers de maxplus, on importe basics de tropical (on importe juste big operators)
 /-!
 # Weighted directed paths for max-plus algebra
 
