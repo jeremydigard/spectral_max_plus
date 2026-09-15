@@ -1,6 +1,5 @@
 
 module
--- cela veut dire quoi public ? cela veut dire quoi module ?
 public import Mathlib.Tropical.MaxPlus.Basic
 public import Mathlib.Data.Fintype.List
 public import Mathlib.Data.List.Chain
